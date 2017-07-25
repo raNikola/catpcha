@@ -1,6 +1,5 @@
 <?php
 session_start();
-// $fcount             = mt_rand( 5, 7 );
 $text               = substr( md5( microtime() ), mt_rand( 0, 26 ), mt_rand( 5, 7 ) );
 $_SESSION["ttcapt"] = $text;
 $height             = 35;
